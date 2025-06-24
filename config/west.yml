@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: module_a_base
+    - name: MA_base
       url-base: https://github.com/KhanVatu/
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
@@ -12,7 +12,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: My-shiel-module
-      remote: module_a_base
+      remote: MA_base
       revision: main
   self:
     path: config
