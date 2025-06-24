@@ -10,6 +10,5 @@ manifest:
     - name: My-shiel-module
       remote: MA_base
       revision: main
-      import: app/west.yml
   self:
     path: config
